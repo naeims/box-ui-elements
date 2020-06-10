@@ -59,7 +59,7 @@ class Users extends Base {
         if (typeof accessToken === 'string') {
             const options = {
                 access_token: accessToken,
-                pic_type: 'large',
+                pic_type: 'preview',
             };
             const urlParams = queryString.stringify(options);
             const url = `${this.getAvatarUrl(userId)}?${urlParams}`;

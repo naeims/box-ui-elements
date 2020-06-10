@@ -29,6 +29,8 @@
     .avatar-icon,
     .avatar-image {
         @extend %circle;
+
+        object-fit: cover;
     }
 
     .avatar-initials {
